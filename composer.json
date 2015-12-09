@@ -1,5 +1,5 @@
 {
-    "name": "rrdial/bing-ads-sdk-v9",
+    "name": "bingads/php-sdk-v9",
     "description": "Bing Ads API Version 9 Client Library for PHP.",
     "keywords": ["bing", "bing ads", "api", "sdk", "microsoft"],
     "type": "library",
@@ -8,10 +8,6 @@
         {
             "name": "Microsoft",
             "homepage": "http://go.microsoft.com/fwlink/?LinkId=329042"
-        },
-        {
-            "name": "Ryan Dial",
-            "email": "rrdial@gmail.com"
         }
     ],
     "require": {
