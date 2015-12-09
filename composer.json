@@ -1,0 +1,26 @@
+{
+    "name": "rrdial/bing-ads-sdk-v9",
+    "description": "Bing Ads API Version 9 Client Library for PHP.",
+    "keywords": ["bing", "bing ads", "api", "sdk", "microsoft"],
+    "type": "library",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Microsoft",
+            "homepage": "http://go.microsoft.com/fwlink/?LinkId=329042"
+        },
+        {
+            "name": "Ryan Dial",
+            "email": "rrdial@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "ext-soap": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "BingAds\\": "src/BingAds/"
+        }
+    }
+}
