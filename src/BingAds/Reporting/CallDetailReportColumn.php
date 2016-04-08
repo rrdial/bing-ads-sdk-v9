@@ -6,7 +6,7 @@ namespace BingAds\Reporting;
  * Defines the attributes and performance statistics columns that you can include in the CallDetailReportRequest.
  *
  * @link http://msdn.microsoft.com/en-us/library/dn195843(v=msads.90).aspx CallDetailReportColumn Value Set
- * 
+ *
  * @used-by CallDetailReportRequest
  */
 final class CallDetailReportColumn

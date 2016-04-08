@@ -3,7 +3,7 @@
 namespace BingAds\CampaignManagement;
 
 /**
- * Defines a shopping setting for a Bing Shopping Campaign.
+ * Defines a shopping setting for a Bing Shopping? Campaign.
  *
  * @link http://msdn.microsoft.com/en-us/library/dn913132(v=msads.90).aspx ShoppingSetting Data Object
  */

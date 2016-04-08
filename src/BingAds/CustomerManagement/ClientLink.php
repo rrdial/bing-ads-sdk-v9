@@ -3,10 +3,10 @@
 namespace BingAds\CustomerManagement;
 
 /**
- * This feature is not supported in sandbox.
+ * Defines a client link object.
  *
  * @link http://msdn.microsoft.com/en-us/library/dn632189(v=msads.90).aspx ClientLink Data Object
- * 
+ *
  * @uses ClientLinkStatus
  * @uses KeyValuePairOfstringstring
  * @used-by AddClientLinksRequest

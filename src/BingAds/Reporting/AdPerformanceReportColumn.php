@@ -6,7 +6,7 @@ namespace BingAds\Reporting;
  * Defines the attributes and performance statistics columns that you can include in the AdPerformanceReportRequest.
  *
  * @link http://msdn.microsoft.com/en-us/library/bb671923(v=msads.90).aspx AdPerformanceReportColumn Value Set
- * 
+ *
  * @used-by AdPerformanceReportRequest
  */
 final class AdPerformanceReportColumn
@@ -59,7 +59,7 @@ final class AdPerformanceReportColumn
     const CostPerConversion = 'CostPerConversion';
     /** The average of the cost-per-thousand impressions of the ads. */
     const AverageCpm = 'AverageCpm';
-    /** The PricingModel element of an AdGroup. */
+    /** The ad group's pricing model. */
     const PricingModel = 'PricingModel';
     /** The destination URL attribute of the ad, keyword, or ad group criterion. */
     const DestinationUrl = 'DestinationUrl';
@@ -79,7 +79,7 @@ final class AdPerformanceReportColumn
     const BusinessCategoryName = 'BusinessCategoryName';
     /** The ad status. */
     const AdStatus = 'AdStatus';
-    /** The Network element of an AdGroup. */
+    /** The current network setting of an ad group. */
     const Network = 'Network';
     /** The report will include a column that indicates whether the ad impression appeared in a top position or elsewhere. */
     const TopVsOther = 'TopVsOther';

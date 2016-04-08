@@ -6,7 +6,7 @@ namespace BingAds\CampaignManagement;
  * Defines a campaign.
  *
  * @link http://msdn.microsoft.com/en-us/library/bb672054(v=msads.90).aspx Campaign Data Object
- * 
+ *
  * @uses BudgetLimitType
  * @uses KeyValuePairOfstringstring
  * @uses CampaignStatus

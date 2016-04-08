@@ -8,7 +8,7 @@ use DateTime;
  * Defines the attribute columns that you can include in the SearchCampaignChangeHistoryReportRequest.
  *
  * @link http://msdn.microsoft.com/en-us/library/hh912353(v=msads.90).aspx SearchCampaignChangeHistoryReportColumn Value Set
- * 
+ *
  * @used-by SearchCampaignChangeHistoryReportRequest
  */
 final class SearchCampaignChangeHistoryReportColumn

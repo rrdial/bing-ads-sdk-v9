@@ -6,7 +6,7 @@ namespace BingAds\Reporting;
  * Defines the criteria to use to filter the keyword performance report data.
  *
  * @link http://msdn.microsoft.com/en-us/library/bb672082(v=msads.90).aspx KeywordPerformanceReportFilter Data Object
- * 
+ *
  * @uses AdDistributionReportFilter
  * @uses AdTypeReportFilter
  * @uses BidMatchTypeReportFilter
@@ -29,13 +29,13 @@ final class KeywordPerformanceReportFilter
      */
     public $AdType;
     /**
-     * The report will include data for only the specified bid match types (as opposed to the delivered match type).
+     * The report will include data for only the specified bid match types.
      *
      * @var BidMatchTypeReportFilter
      */
     public $BidMatchType;
     /**
-     * The report will include data for only the specified delivered match types (as opposed to the bid match type).
+     * The report will include data for only the specified delivered match types.
      *
      * @var DeliveredMatchTypeReportFilter
      */

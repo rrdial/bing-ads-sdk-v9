@@ -3,10 +3,10 @@
 namespace BingAds\Reporting;
 
 /**
- * Defines the attributes and performance statistics columns that you can include in the AdDynamicTextPerformanceReportRequest.
+ * Defines the attributes and performance statistics columns that you can include in the AdDynamicTextPerformanceReportRequest Data Object.
  *
  * @link http://msdn.microsoft.com/en-us/library/bb671878(v=msads.90).aspx AdDynamicTextPerformanceReportColumn Value Set
- * 
+ *
  * @used-by AdDynamicTextPerformanceReportRequest
  */
 final class AdDynamicTextPerformanceReportColumn
@@ -32,11 +32,11 @@ final class AdDynamicTextPerformanceReportColumn
     const AdType = 'AdType';
     /** The destination URL attribute of the ad, keyword, or ad group criterion. */
     const DestinationUrl = 'DestinationUrl';
-    /** The Param1 element of a Keyword or BiddableAdGroupCriterion. */
+    /** The first dynamic substitution parameter (Param1) of a keyword or biddable ad group criterion. */
     const Param1 = 'Param1';
-    /** The Param2 element of a Keyword or BiddableAdGroupCriterion. */
+    /** The second dynamic substitution parameter (Param2) of a keyword or biddable ad group criterion. */
     const Param2 = 'Param2';
-    /** The Param3 element of a Keyword or BiddableAdGroupCriterion. */
+    /** The third dynamic substitution parameter (Param3) of a keyword or biddable ad group criterion. */
     const Param3 = 'Param3';
     /** The account currency type. */
     const CurrencyCode = 'CurrencyCode';
@@ -62,7 +62,7 @@ final class AdDynamicTextPerformanceReportColumn
     const CostPerConversion = 'CostPerConversion';
     /** The average of the cost-per-thousand impressions of the ads. */
     const AverageCpm = 'AverageCpm';
-    /** The PricingModel element of an AdGroup. */
+    /** The ad group's pricing model. */
     const PricingModel = 'PricingModel';
     /** The device name attribute of a device OS target bid. */
     const DeviceType = 'DeviceType';

@@ -6,7 +6,7 @@ namespace BingAds\Reporting;
  * Defines the attributes and performance statistics columns that you can include in the GeoLocationPerformanceReportRequest.
  *
  * @link http://msdn.microsoft.com/en-us/library/dn743762(v=msads.90).aspx GeoLocationPerformanceReportColumn Value Set
- * 
+ *
  * @used-by GeoLocationPerformanceReportRequest
  */
 final class GeoLocationPerformanceReportColumn
@@ -53,9 +53,9 @@ final class GeoLocationPerformanceReportColumn
     const AveragePosition = 'AveragePosition';
     /** The average of the cost-per-thousand impressions of the ads. */
     const AverageCpm = 'AverageCpm';
-    /** The Name element of a RadiusTargetBid. */
+    /** The radius target bid name. */
     const ProximityTargetLocation = 'ProximityTargetLocation';
-    /** The Radius element of a RadiusTargetBid. */
+    /** The radius of a radius target bid. */
     const Radius = 'Radius';
     /** The ad group language. */
     const Language = 'Language';
@@ -63,7 +63,7 @@ final class GeoLocationPerformanceReportColumn
     const BidMatchType = 'BidMatchType';
     /** The match type used to deliver an ad. */
     const DeliveredMatchType = 'DeliveredMatchType';
-    /** The Network element of an AdGroup. */
+    /** The current network setting of an ad group. */
     const Network = 'Network';
     /** The report will include a column that indicates whether the ad impression appeared in a top position or elsewhere. */
     const TopVsOther = 'TopVsOther';

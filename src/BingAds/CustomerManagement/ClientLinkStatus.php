@@ -3,15 +3,15 @@
 namespace BingAds\CustomerManagement;
 
 /**
- * This feature is not supported in sandbox.
+ * Defines the possible status values of a ClientLink.
  *
  * @link http://msdn.microsoft.com/en-us/library/dn632184(v=msads.90).aspx ClientLinkStatus Value Set
- * 
+ *
  * @used-by ClientLink
  */
 final class ClientLinkStatus
 {
-    /** The ClientLink object has been added via the AddClientLinks service operation. */
+    /** The ClientLink has been added via the AddClientLinks operation. */
     const LinkPending = 'LinkPending';
     /** The link request has been canceled by the agency. */
     const LinkCanceled = 'LinkCanceled';

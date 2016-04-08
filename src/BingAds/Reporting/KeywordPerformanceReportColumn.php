@@ -6,7 +6,7 @@ namespace BingAds\Reporting;
  * Defines the attributes and performance statistics columns that you can include in the KeywordPerformanceReportRequest.
  *
  * @link http://msdn.microsoft.com/en-us/library/bb672087(v=msads.90).aspx KeywordPerformanceReportColumn Value Set
- * 
+ *
  * @used-by KeywordPerformanceReportRequest
  * @used-by KeywordPerformanceReportSort
  */
@@ -66,7 +66,7 @@ final class KeywordPerformanceReportColumn
     const CostPerConversion = 'CostPerConversion';
     /** The average of the cost-per-thousand impressions of the ads. */
     const AverageCpm = 'AverageCpm';
-    /** The PricingModel element of an AdGroup. */
+    /** The ad group's pricing model. */
     const PricingModel = 'PricingModel';
     /** The keyword bid match type. */
     const BidMatchType = 'BidMatchType';
@@ -92,7 +92,7 @@ final class KeywordPerformanceReportColumn
     const HistoricLandingPageUserExperience = 'HistoricLandingPageUserExperience';
     /** An identifier that uniquely identifies the keyword and match-type combination. */
     const KeywordMatchTypeId = 'KeywordMatchTypeId';
-    /** The numeric score that indicates the possible increase in the number of impressions that the keyword could receive if the corresponding QualityScore column would rise above underperforming. */
+    /** The numeric score that indicates the possible increase in the number of impressions that the keyword could receive if the corresponding QualityScore column would rise above underperforming: 0 - Not available. */
     const QualityImpact = 'QualityImpact';
     /** Reserved for internal use. */
     const BusinessListingId = 'BusinessListingId';
@@ -110,7 +110,7 @@ final class KeywordPerformanceReportColumn
     const AdGroupStatus = 'AdGroupStatus';
     /** The keyword status. */
     const KeywordStatus = 'KeywordStatus';
-    /** The Network element of an AdGroup. */
+    /** The current network setting of an ad group. */
     const Network = 'Network';
     /** The report will include a column that indicates whether the ad impression appeared in a top position or elsewhere. */
     const TopVsOther = 'TopVsOther';

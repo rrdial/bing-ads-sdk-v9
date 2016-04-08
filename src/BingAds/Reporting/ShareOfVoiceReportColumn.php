@@ -3,39 +3,39 @@
 namespace BingAds\Reporting;
 
 /**
- * Defines the attributes and performance statistics columns that you can include in the ShareOfVoicePerformanceReportRequest.
+ * Defines the attributes and performance statistics columns that you can include in the ShareOfVoiceReportRequest.
  *
  * @link http://msdn.microsoft.com/en-us/library/jj592910(v=msads.90).aspx ShareOfVoiceReportColumn Value Set
- * 
+ *
  * @used-by ShareOfVoiceReportRequest
  */
 final class ShareOfVoiceReportColumn
 {
-    /** The Name element of an Account. */
+    /** The account name. */
     const AccountName = 'AccountName';
     /** The time period of each report row. */
     const TimePeriod = 'TimePeriod';
-    /** The Name element of a Campaign. */
+    /** The campaign name. */
     const CampaignName = 'CampaignName';
-    /** The Name element of an AdGroup. */
+    /** The ad group name. */
     const AdGroupName = 'AdGroupName';
-    /** The Text element of a Keyword. */
+    /** The keyword text. */
     const Keyword = 'Keyword';
     /** The match type used to deliver an ad. */
     const DeliveredMatchType = 'DeliveredMatchType';
-    /** The MatchType element of a Keyword. */
+    /** The keyword bid match type. */
     const BidMatchType = 'BidMatchType';
-    /** The Language element of an AdGroup. */
+    /** The ad group language. */
     const Language = 'Language';
-    /** The Number element of an Account. */
+    /** The Bing Ads assigned number of an account. */
     const AccountNumber = 'AccountNumber';
-    /** The Id element of an Account. */
+    /** The Bing Ads assigned identifier of an account. */
     const AccountId = 'AccountId';
-    /** The Id element of a Keyword. */
+    /** The Bing Ads assigned identifier of a keyword. */
     const KeywordId = 'KeywordId';
-    /** The Id element of an AdGroup. */
+    /** The Bing Ads assigned identifier of an ad group. */
     const AdGroupId = 'AdGroupId';
-    /** The Id element of a Campaign. */
+    /** The Bing Ads assigned identifier of a campaign. */
     const CampaignId = 'CampaignId';
     /** The number of times an ad has been displayed on search results pages. */
     const Impressions = 'Impressions';
@@ -55,7 +55,7 @@ final class ShareOfVoiceReportColumn
     const ImpressionLostToBudgetPercent = 'ImpressionLostToBudgetPercent';
     /** The percentage of time your ads would have been displayed to users, but were not because your ads ranked too low in the auction. */
     const ImpressionLostToRankPercent = 'ImpressionLostToRankPercent';
-    /** The percentage of time your ads would have been displayed to users, but were not due to one or more of the following reasons. */
+    /** The percentage of time your ads would have been displayed to users, but were not due to one or more of the following reasons:Your ad was not relevant to the user's search query. */
     const ImpressionLostToLandingPageRelevancePercent = 'ImpressionLostToLandingPageRelevancePercent';
     /** The percentage of time your ads would have been displayed to users, but were not because your ad copy was not relevant to the user's search query. */
     const ImpressionLostToKeywordRelevancePercent = 'ImpressionLostToKeywordRelevancePercent';
@@ -78,11 +78,11 @@ final class ShareOfVoiceReportColumn
     const ConversionRate = 'ConversionRate';
     /** The cost per conversion. */
     const CostPerConversion = 'CostPerConversion';
-    /** The AdDistribution element of an AdGroup. */
+    /** The ad distribution attribute of an ad group. */
     const AdDistribution = 'AdDistribution';
     const ClickSharePercent = 'ClickSharePercent';
-    /** The DeviceName element of a DeviceOSTargetBid. */
+    /** The device name attribute of a device OS target bid. */
     const DeviceType = 'DeviceType';
-    /** The Network element of an AdGroup. */
+    /** The current network setting of an ad group. */
     const Network = 'Network';
 }

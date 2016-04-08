@@ -6,7 +6,7 @@ namespace BingAds\Reporting;
  * Defines the attributes and performance statistics columns that you can include in the ProductTargetPerformanceReportRequest.
  *
  * @link http://msdn.microsoft.com/en-us/library/dn195844(v=msads.90).aspx ProductTargetPerformanceReportColumn Value Set
- * 
+ *
  * @used-by ProductTargetPerformanceReportRequest
  */
 final class ProductTargetPerformanceReportColumn
@@ -71,7 +71,7 @@ final class ProductTargetPerformanceReportColumn
     const BidMatchType = 'BidMatchType';
     /** The match type used to deliver an ad. */
     const DeliveredMatchType = 'DeliveredMatchType';
-    /** The Network element of an AdGroup. */
+    /** The current network setting of an ad group. */
     const Network = 'Network';
     /** The report will include a column that indicates whether the ad impression appeared in a top position or elsewhere. */
     const TopVsOther = 'TopVsOther';

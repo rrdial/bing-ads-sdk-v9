@@ -6,7 +6,7 @@ namespace BingAds\Reporting;
  * Defines the attributes columns that you can include in the NegativeKeywordConflictReportRequest.
  *
  * @link http://msdn.microsoft.com/en-us/library/hh560535(v=msads.90).aspx NegativeKeywordConflictReportColumn Value Set
- * 
+ *
  * @used-by NegativeKeywordConflictReportRequest
  */
 final class NegativeKeywordConflictReportColumn
@@ -29,17 +29,17 @@ final class NegativeKeywordConflictReportColumn
     const Keyword = 'Keyword';
     /** The Bing Ads assigned identifier of a keyword. */
     const KeywordId = 'KeywordId';
-    /** The negative keyword that conflicts with the keyword at the ad group or campaign level. */
+    /** The negative keyword text. */
     const NegativeKeyword = 'NegativeKeyword';
     /** The entity level where the keyword and negative keyword conflict occurs. */
     const ConflictLevel = 'ConflictLevel';
     /** The keyword bid match type. */
     const BidMatchType = 'BidMatchType';
-    /** The NegativeKeywordListId element of the NegativeKeywordList Data Object. */
+    /** The Bing Ads assigned identifier of a negative keyword list. */
     const NegativeKeywordListId = 'NegativeKeywordListId';
-    /** The Name element of a NegativeKeywordList. */
+    /** The name of the negative keyword list. */
     const NegativeKeywordList = 'NegativeKeywordList';
-    /** The Id element of a NegativeKeyword. */
+    /** The Bing Ads assigned identifier of a negative keyword. */
     const NegativeKeywordId = 'NegativeKeywordId';
     /** The type of match to compare the negative keyword and the user's search term. */
     const NegativeKeywordMatchType = 'NegativeKeywordMatchType';

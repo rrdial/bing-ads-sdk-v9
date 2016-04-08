@@ -16,7 +16,7 @@ final class CallAdExtension extends AdExtension
      */
     public $CountryCode;
     /**
-     * This element determines whether the preference is for the click to call phone number to be displayed on mobile devices or all devices.
+     * Note: Reserved for future use.
      *
      * @var int
      */

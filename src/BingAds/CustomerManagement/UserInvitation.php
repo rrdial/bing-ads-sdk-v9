@@ -6,7 +6,7 @@ namespace BingAds\CustomerManagement;
  * Defines a user invitation.
  *
  * @link http://msdn.microsoft.com/en-us/library/dn771360(v=msads.90).aspx UserInvitation Data Object
- * 
+ *
  * @uses UserRole
  * @uses LCID
  * @used-by SearchUserInvitationsResponse

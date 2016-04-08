@@ -6,7 +6,7 @@ namespace BingAds\Reporting;
  * The GeographicalLocationReportRequest and corresponding programming elements are deprecated, and instead you should use the GeoLocationPerformanceReportRequest.
  *
  * @link http://msdn.microsoft.com/en-us/library/dn411634(v=msads.90).aspx GeographicalLocationReportColumn Value Set
- * 
+ *
  * @used-by GeographicalLocationReportRequest
  */
 final class GeographicalLocationReportColumn
@@ -51,9 +51,9 @@ final class GeographicalLocationReportColumn
     const AveragePosition = 'AveragePosition';
     /** The average of the cost-per-thousand impressions of the ads. */
     const AverageCpm = 'AverageCpm';
-    /** The Name element of a RadiusTargetBid. */
+    /** The radius target bid name. */
     const ProximityTargetLocation = 'ProximityTargetLocation';
-    /** The Radius element of a RadiusTargetBid. */
+    /** The radius of a radius target bid. */
     const Radius = 'Radius';
     /** The ad group language. */
     const Language = 'Language';
@@ -71,7 +71,7 @@ final class GeographicalLocationReportColumn
     const BidMatchType = 'BidMatchType';
     /** The match type used to deliver an ad. */
     const DeliveredMatchType = 'DeliveredMatchType';
-    /** The Network element of an AdGroup. */
+    /** The current network setting of an ad group. */
     const Network = 'Network';
     /** The report will include a column that indicates whether the ad impression appeared in a top position or elsewhere. */
     const TopVsOther = 'TopVsOther';

@@ -3,7 +3,7 @@
 namespace BingAds\CampaignManagement;
 
 /**
- * Bing Ads WAP (Wireless Application Protocol) mobile ads are pay-per-click ads that are displayed on Bing and Yahoo mobile search results pages.
+ * System_CAPS_MD_note.
  *
  * @link http://msdn.microsoft.com/en-us/library/cc512741(v=msads.90).aspx MobileAd Data Object
  */

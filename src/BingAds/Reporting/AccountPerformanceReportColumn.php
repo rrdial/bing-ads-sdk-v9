@@ -6,22 +6,22 @@ namespace BingAds\Reporting;
  * Defines the attributes and performance statistics columns that you can include in the AccountPerformanceReportRequest.
  *
  * @link http://msdn.microsoft.com/en-us/library/bb671947(v=msads.90).aspx AccountPerformanceReportColumn Value Set
- * 
+ *
  * @used-by AccountPerformanceReportRequest
  */
 final class AccountPerformanceReportColumn
 {
-    /** The Name element of an Account. */
+    /** The account name. */
     const AccountName = 'AccountName';
-    /** The Number element of an Account. */
+    /** The Bing Ads assigned number of an account. */
     const AccountNumber = 'AccountNumber';
-    /** The Id element of an Account. */
+    /** The Bing Ads assigned identifier of an account. */
     const AccountId = 'AccountId';
     /** The time period of each report row. */
     const TimePeriod = 'TimePeriod';
-    /** The CurrencyType element of an Account. */
+    /** The account currency type. */
     const CurrencyCode = 'CurrencyCode';
-    /** The AdDistribution element of an AdGroup. */
+    /** The ad distribution attribute of an ad group. */
     const AdDistribution = 'AdDistribution';
     /** The number of times an ad has been displayed on search results pages. */
     const Impressions = 'Impressions';
@@ -55,7 +55,7 @@ final class AccountPerformanceReportColumn
     const LowQualityConversionRate = 'LowQualityConversionRate';
     /** The average of the cost-per-thousand impressions of the ads. */
     const AverageCpm = 'AverageCpm';
-    /** The DeviceName element of a DeviceOSTargetBid. */
+    /** The device name attribute of a device OS target bid. */
     const DeviceType = 'DeviceType';
     /** The operating system of the device reported in the DeviceType column. */
     const DeviceOS = 'DeviceOS';
@@ -67,7 +67,7 @@ final class AccountPerformanceReportColumn
     const ImpressionLostToRankPercent = 'ImpressionLostToRankPercent';
     /** The percentage of time your ads would have been displayed to users, but were not because your bid was too low or your bid and quality score was below minimum thresholds, which prevented you from entering the auction. */
     const ImpressionLostToBidPercent = 'ImpressionLostToBidPercent';
-    /** The percentage of time your ads would have been displayed to users, but were not due to one or more of the following reasons. */
+    /** The percentage of time your ads would have been displayed to users, but were not due to one or more of the following reasons:Your ad was not relevant to the user's search query. */
     const ImpressionLostToLandingPageRelevancePercent = 'ImpressionLostToLandingPageRelevancePercent';
     /** The percentage of time your ads would have been displayed to users, but were not because your ad copy was not relevant to the user's search query. */
     const ImpressionLostToKeywordRelevancePercent = 'ImpressionLostToKeywordRelevancePercent';
@@ -87,11 +87,11 @@ final class AccountPerformanceReportColumn
     const AverageCpp = 'AverageCpp';
     /** The total cost for cost for click spend and phone call spend combined. */
     const TotalCostPhoneAndClicks = 'TotalCostPhoneAndClicks';
-    /** The Network element of an AdGroup. */
+    /** The current network setting of an ad group. */
     const Network = 'Network';
     /** The report will include a column that indicates whether the ad impression appeared in a top position or elsewhere. */
     const TopVsOther = 'TopVsOther';
-    /** The MatchType element of a Keyword. */
+    /** The keyword bid match type. */
     const BidMatchType = 'BidMatchType';
     /** The match type used to deliver an ad. */
     const DeliveredMatchType = 'DeliveredMatchType';
@@ -109,12 +109,12 @@ final class AccountPerformanceReportColumn
     const RevenuePerConversion = 'RevenuePerConversion';
     /** The revenue per assist. */
     const RevenuePerAssist = 'RevenuePerAssist';
-    /** The percentage of customers to your website that only view one page (the landing page) and then leave your website. */
+    /** The percentage of website visitors who only view one page (the landing page) and then leave your website. */
     const BounceRate = 'BounceRate';
     /** The total number of times customers visited your site. */
     const TotalVisits = 'TotalVisits';
     /** The average number of pages each customer goes to while on your site. */
     const AveragePagesPerVisit = 'AveragePagesPerVisit';
-    /** The sum total of the time customers spent browsing your site divided by the number of customers that came to your site. */
+    /** The sum total of the time customers spent browsing your site divided by the number of customers that visited your site. */
     const AverageDurationPerVisit = 'AverageDurationPerVisit';
 }

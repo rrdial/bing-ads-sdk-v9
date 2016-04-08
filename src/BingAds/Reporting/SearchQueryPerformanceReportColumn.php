@@ -6,7 +6,7 @@ namespace BingAds\Reporting;
  * Defines the attributes and performance statistics columns that you can include in the SearchQueryPerformanceReportRequest.
  *
  * @link http://msdn.microsoft.com/en-us/library/ee703958(v=msads.90).aspx SearchQueryPerformanceReportColumn Value Set
- * 
+ *
  * @used-by SearchQueryPerformanceReportRequest
  */
 final class SearchQueryPerformanceReportColumn
@@ -71,7 +71,7 @@ final class SearchQueryPerformanceReportColumn
     const Language = 'Language';
     /** The Bing Ads assigned identifier of a keyword. */
     const KeywordId = 'KeywordId';
-    /** The Network element of an AdGroup. */
+    /** The current network setting of an ad group. */
     const Network = 'Network';
     /** The report will include a column that indicates whether the ad impression appeared in a top position or elsewhere. */
     const TopVsOther = 'TopVsOther';

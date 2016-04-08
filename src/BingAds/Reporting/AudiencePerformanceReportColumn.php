@@ -6,7 +6,7 @@ namespace BingAds\Reporting;
  * Defines the attributes and performance statistics columns that you can include in the AudiencePerformanceReportRequest.
  *
  * @link http://msdn.microsoft.com/en-us/library/mt604701(v=msads.90).aspx AudiencePerformanceReportColumn Value Set
- * 
+ *
  * @used-by AudiencePerformanceReportRequest
  */
 final class AudiencePerformanceReportColumn

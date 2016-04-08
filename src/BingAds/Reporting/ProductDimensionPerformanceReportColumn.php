@@ -6,7 +6,7 @@ namespace BingAds\Reporting;
  * Defines the attributes and performance statistics columns that you can include in the ProductDimensionPerformanceReportRequest.
  *
  * @link http://msdn.microsoft.com/en-us/library/dn913140(v=msads.90).aspx ProductDimensionPerformanceReportColumn Value Set
- * 
+ *
  * @used-by ProductDimensionPerformanceReportRequest
  */
 final class ProductDimensionPerformanceReportColumn
@@ -27,7 +27,7 @@ final class ProductDimensionPerformanceReportColumn
     const AccountStatus = 'AccountStatus';
     /** The ad group status. */
     const AdGroupStatus = 'AdGroupStatus';
-    /** The Network element of an AdGroup. */
+    /** The current network setting of an ad group. */
     const Network = 'Network';
     /** The Bing Ads assigned identifier of an ad. */
     const AdId = 'AdId';
@@ -99,4 +99,10 @@ final class ProductDimensionPerformanceReportColumn
     const Revenue = 'Revenue';
     /** The revenue per conversion. */
     const RevenuePerConversion = 'RevenuePerConversion';
+    /** The report will include a column that contains the merchant or store name that offers the product. */
+    const SellerName = 'SellerName';
+    /** The report will include a column that contains the language for the product offer. */
+    const OfferLanguage = 'OfferLanguage';
+    /** The report will include a column that contains the country of sale for the product catalog. */
+    const CountryOfSale = 'CountryOfSale';
 }

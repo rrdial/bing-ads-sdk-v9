@@ -6,7 +6,8 @@ namespace BingAds\CustomerManagement;
  * Defines a postal address.
  *
  * @link http://msdn.microsoft.com/en-us/library/bb671505(v=msads.90).aspx Address Data Object
- * 
+ *
+ * @used-by AdvertiserAccount
  * @used-by ContactInfo
  * @used-by Customer
  */

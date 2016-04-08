@@ -6,7 +6,7 @@ namespace BingAds\CustomerManagement;
  * Defines possible payment methods for a Bing Ads account.
  *
  * @link http://msdn.microsoft.com/en-us/library/ee704164(v=msads.90).aspx PaymentMethodType Value Set
- * 
+ *
  * @used-by Account
  */
 final class PaymentMethodType

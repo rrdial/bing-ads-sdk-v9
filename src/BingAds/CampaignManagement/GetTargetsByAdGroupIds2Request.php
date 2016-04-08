@@ -6,7 +6,7 @@ namespace BingAds\CampaignManagement;
  * Retrieves detailed information about the Target2 objects that are associated with the specified ad groups.
  *
  * @link http://msdn.microsoft.com/en-us/library/dn743776(v=msads.90).aspx GetTargetsByAdGroupIds2 Request Object
- * 
+ *
  * @used-by BingAdsCampaignManagementService::GetTargetsByAdGroupIds2
  */
 final class GetTargetsByAdGroupIds2Request

@@ -6,7 +6,7 @@ namespace BingAds\Reporting;
  * Defines the attributes and performance statistics columns that you can include in the TrafficSourcesReportRequest.
  *
  * @link http://msdn.microsoft.com/en-us/library/gg262847(v=msads.90).aspx TrafficSourcesReportColumn Value Set
- * 
+ *
  * @used-by TrafficSourcesReportRequest
  */
 final class TrafficSourcesReportColumn
@@ -19,7 +19,7 @@ final class TrafficSourcesReportColumn
     const AccountId = 'AccountId';
     /** The time period of each report row. */
     const TimePeriod = 'TimePeriod';
-    /** The origin of the advertising traffic, which is one of the following: */
+    /** The origin of the advertising traffic, which is one of the following:Bing and Yahoo Search PropertiesExtended Network Search PropertiesNote: If the user is coming from a syndicated search website, the value will be the domain name of the syndicated website. */
     const Source = 'Source';
     /** The name of your event tracking or campaign analytics goal. */
     const Goal = 'Goal';

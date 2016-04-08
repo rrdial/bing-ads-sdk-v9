@@ -3,7 +3,7 @@
 namespace BingAds\CampaignManagement;
 
 /**
- * Currently this feature is only available for pilot participants.
+ * Defines an ad extension that specifies an image with alternative text to include in a text ad.
  *
  * @link http://msdn.microsoft.com/en-us/library/dn766199(v=msads.90).aspx ImageAdExtension Data Object
  */

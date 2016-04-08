@@ -6,7 +6,7 @@ namespace BingAds\Reporting;
  * Defines the attributes and performance statistics columns that you can include in the PublisherUsagePerformanceReportRequest.
  *
  * @link http://msdn.microsoft.com/en-us/library/dd797159(v=msads.90).aspx PublisherUsagePerformanceReportColumn Value Set
- * 
+ *
  * @used-by PublisherUsagePerformanceReportRequest
  */
 final class PublisherUsagePerformanceReportColumn
@@ -53,7 +53,7 @@ final class PublisherUsagePerformanceReportColumn
     const CostPerConversion = 'CostPerConversion';
     /** The average of the cost-per-thousand impressions of the ads. */
     const AverageCpm = 'AverageCpm';
-    /** The PricingModel element of an AdGroup. */
+    /** The ad group's pricing model. */
     const PricingModel = 'PricingModel';
     /** The ad group language. */
     const Language = 'Language';
@@ -61,7 +61,7 @@ final class PublisherUsagePerformanceReportColumn
     const BidMatchType = 'BidMatchType';
     /** The match type used to deliver an ad. */
     const DeliveredMatchType = 'DeliveredMatchType';
-    /** The Network element of an AdGroup. */
+    /** The current network setting of an ad group. */
     const Network = 'Network';
     /** The report will include a column that indicates whether the ad impression appeared in a top position or elsewhere. */
     const TopVsOther = 'TopVsOther';

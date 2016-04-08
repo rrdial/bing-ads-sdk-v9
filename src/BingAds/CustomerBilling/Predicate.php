@@ -3,10 +3,10 @@
 namespace BingAds\CustomerBilling;
 
 /**
- * Defines a predicate for the list of insertion orders returned using SearchInsertionOrders.
+ * Defines a predicate for the list of insertion orders returned using the SearchInsertionOrders operation.
  *
  * @link http://msdn.microsoft.com/en-us/library/dn743756(v=msads.90).aspx Predicate Data Object
- * 
+ *
  * @uses PredicateOperator
  * @used-by SearchInsertionOrdersRequest
  */

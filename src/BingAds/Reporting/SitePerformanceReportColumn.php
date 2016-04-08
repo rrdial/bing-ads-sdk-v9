@@ -6,7 +6,7 @@ namespace BingAds\Reporting;
  * Defines the attributes and performance statistics columns that you can include in the SitePerformanceReportRequest.
  *
  * @link http://msdn.microsoft.com/en-us/library/dd797115(v=msads.90).aspx SitePerformanceReportColumn Value Set
- * 
+ *
  * @used-by SitePerformanceReportRequest
  */
 final class SitePerformanceReportColumn
@@ -29,7 +29,7 @@ final class SitePerformanceReportColumn
     const AdGroupId = 'AdGroupId';
     /** The URL of the website that displayed the ad. */
     const Site = 'Site';
-    /** The Id element of a SitePlacement. */
+    /** The Bing Ads assigned identifier of a site placement. */
     const SiteId = 'SiteId';
     /** The Bing Ads assigned identifier of an ad. */
     const AdId = 'AdId';
@@ -65,7 +65,7 @@ final class SitePerformanceReportColumn
     const AdType = 'AdType';
     /** The average of the cost-per-thousand impressions of the ads. */
     const AverageCpm = 'AverageCpm';
-    /** The PricingModel element of an AdGroup. */
+    /** The ad group's pricing model. */
     const PricingModel = 'PricingModel';
     /** The device name attribute of a device OS target bid. */
     const DeviceType = 'DeviceType';

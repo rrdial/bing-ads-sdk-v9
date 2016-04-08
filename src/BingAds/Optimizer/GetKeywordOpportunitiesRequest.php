@@ -6,7 +6,7 @@ namespace BingAds\Optimizer;
  * Gets a list of keyword suggestions that are relevant to the specified ad group.
  *
  * @link http://msdn.microsoft.com/en-us/library/dn376336(v=msads.90).aspx GetKeywordOpportunities Request Object
- * 
+ *
  * @uses KeywordOpportunityType
  * @used-by BingAdsOptimizerService::GetKeywordOpportunities
  */
@@ -31,7 +31,7 @@ final class GetKeywordOpportunitiesRequest
      */
     public $CampaignId;
     /**
-     * When set to true, the estimated impact elements are included in the KeywordOpportunity object.
+     * When set to true, the estimated impact elements are included in the KeywordOpportunity.
      *
      * @var bool
      */

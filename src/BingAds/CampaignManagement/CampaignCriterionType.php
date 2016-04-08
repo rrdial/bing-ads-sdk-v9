@@ -6,7 +6,7 @@ namespace BingAds\CampaignManagement;
  * Defines the possible types of campaign criterions.
  *
  * @link http://msdn.microsoft.com/en-us/library/dn913131(v=msads.90).aspx CampaignCriterionType Value Set
- * 
+ *
  * @used-by AddCampaignCriterionsRequest
  * @used-by DeleteCampaignCriterionsRequest
  * @used-by GetCampaignCriterionsByCampaignIdRequest

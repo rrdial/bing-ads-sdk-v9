@@ -6,7 +6,7 @@ namespace BingAds\Reporting;
  * Defines the attributes and performance statistics columns that you can include in the ConversionPerformanceReportRequest.
  *
  * @link http://msdn.microsoft.com/en-us/library/gg262852(v=msads.90).aspx ConversionPerformanceReportColumn Value Set
- * 
+ *
  * @used-by ConversionPerformanceReportRequest
  */
 final class ConversionPerformanceReportColumn

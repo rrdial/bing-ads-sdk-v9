@@ -6,7 +6,7 @@ namespace BingAds\CampaignManagement;
  * Applies an add, update, or delete action to each of the specified BiddableAdGroupCriterion or NegativeAdGroupCriterion, which each contain a ProductPartition.
  *
  * @link http://msdn.microsoft.com/en-us/library/dn913134(v=msads.90).aspx ApplyProductPartitionActions Response Object
- * 
+ *
  * @uses BatchError
  * @used-by BingAdsCampaignManagementService::ApplyProductPartitionActions
  */

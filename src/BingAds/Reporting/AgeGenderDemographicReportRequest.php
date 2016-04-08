@@ -6,7 +6,7 @@ namespace BingAds\Reporting;
  * Defines an age and gender demographic report request.
  *
  * @link http://msdn.microsoft.com/en-us/library/bb671917(v=msads.90).aspx AgeGenderDemographicReportRequest Data Object
- * 
+ *
  * @uses NonHourlyReportAggregation
  * @uses AgeGenderDemographicReportColumn
  * @uses AgeGenderDemographicReportFilter
@@ -22,6 +22,8 @@ final class AgeGenderDemographicReportRequest extends ReportRequest
      */
     public $Aggregation;
     /**
+     * The list of attributes and performance statistics to include in the report.
+     *
      * @var AgeGenderDemographicReportColumn[]
      */
     public $Columns;

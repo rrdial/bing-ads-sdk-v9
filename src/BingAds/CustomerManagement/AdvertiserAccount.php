@@ -6,8 +6,10 @@ namespace BingAds\CustomerManagement;
  * Defines an advertiser account.
  *
  * @link http://msdn.microsoft.com/en-us/library/ee704163(v=msads.90).aspx AdvertiserAccount Data Object
- * 
+ *
  * @uses TaxType
+ * @uses TaxIdStatus
+ * @uses Address
  */
 final class AdvertiserAccount extends Account
 {
@@ -30,7 +32,7 @@ final class AdvertiserAccount extends Account
      */
     public $SalesHouseCustomerId;
     /**
-     * For internal use only.
+     * The account's Value Added Tax (VAT) registration number (also known as VAT identifier).
      *
      * @var string
      */
@@ -53,4 +55,16 @@ final class AdvertiserAccount extends Account
      * @var float
      */
     public $BillingThresholdAmount;
+    /**
+     * The status of the account's Value Added Tax (VAT) identifier.
+     *
+     * @var TaxIdStatus
+     */
+    public $TaxIdStatus;
+    /**
+     * The location where your business is legally registered.
+     *
+     * @var Address
+     */
+    public $BusinessAddress;
 }

@@ -6,7 +6,7 @@ namespace BingAds\Reporting;
  * Defines a product partition performance report request that aggregates the performance data by product group and product partition type for a specified time period.
  *
  * @link http://msdn.microsoft.com/en-us/library/dn913138(v=msads.90).aspx ProductPartitionPerformanceReportRequest Data Object
- * 
+ *
  * @uses ReportAggregation
  * @uses ProductPartitionPerformanceReportColumn
  * @uses ProductPartitionPerformanceReportFilter

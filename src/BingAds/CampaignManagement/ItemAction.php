@@ -6,7 +6,7 @@ namespace BingAds\CampaignManagement;
  * Defines the possible types of item actions, for example to add, delete, or update the BiddableAdGroupCriterion or NegativeAdGroupCriterion, specifically one that contains a ProductPartition.
  *
  * @link http://msdn.microsoft.com/en-us/library/dn913119(v=msads.90).aspx ItemAction Value Set
- * 
+ *
  * @used-by AdGroupCriterionAction
  */
 final class ItemAction

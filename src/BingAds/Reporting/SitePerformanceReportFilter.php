@@ -6,7 +6,7 @@ namespace BingAds\Reporting;
  * Defines the criteria to use to filter the website performance report data.
  *
  * @link http://msdn.microsoft.com/en-us/library/dd796955(v=msads.90).aspx SitePerformanceReportFilter Data Object
- * 
+ *
  * @uses AdDistributionReportFilter
  * @uses AdTypeReportFilter
  * @uses DeliveredMatchTypeReportFilter
@@ -28,7 +28,7 @@ final class SitePerformanceReportFilter
      */
     public $AdType;
     /**
-     * The report will include data for only the specified delivered match types (as opposed to the bid match type).
+     * The report will include data for only the specified delivered match types.
      *
      * @var DeliveredMatchTypeReportFilter
      */

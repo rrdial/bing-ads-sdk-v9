@@ -6,7 +6,7 @@ namespace BingAds\CampaignManagement;
  * Defines an ad group.
  *
  * @link http://msdn.microsoft.com/en-us/library/bb671956(v=msads.90).aspx AdGroup Data Object
- * 
+ *
  * @uses AdDistribution
  * @uses AdRotation
  * @uses BiddingModel

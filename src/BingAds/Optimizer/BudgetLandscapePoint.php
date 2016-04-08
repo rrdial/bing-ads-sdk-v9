@@ -6,7 +6,7 @@ namespace BingAds\Optimizer;
  * Defines an object that contains daily impressions and clicks estimates for one of the last 15 days.
  *
  * @link http://msdn.microsoft.com/en-us/library/dn434658(v=msads.90).aspx BudgetLandscapePoint Data Object
- * 
+ *
  * @used-by BudgetPoint
  */
 final class BudgetLandscapePoint
@@ -24,13 +24,13 @@ final class BudgetLandscapePoint
      */
     public $Clicks;
     /**
-     * The estimated clicks performance for the day , given the provided BudgetAmount element of the BudgetPoint object.
+     * The estimated clicks performance for the day , given the provided BudgetAmount element of the BudgetPoint.
      *
      * @var float
      */
     public $EstimatedClicks;
     /**
-     * The estimated impressions performance for the day, given the provided BudgetAmount element of the BudgetPoint object.
+     * The estimated impressions performance for the day, given the provided BudgetAmount element of the BudgetPoint.
      *
      * @var int
      */

@@ -6,7 +6,7 @@ namespace BingAds\CustomerManagement;
  * Defines a customer.
  *
  * @link http://msdn.microsoft.com/en-us/library/bb671875(v=msads.90).aspx Customer Data Object
- * 
+ *
  * @uses Address
  * @uses CustomerFinancialStatus
  * @uses Industry
@@ -95,7 +95,7 @@ final class Customer
      */
     public $CustomerLifeCycleStatus;
     /**
-     * A time-stamp value that the system uses internally to reconcile updates when you call the UpdateCustomer or DeleteCustomer operation.
+     * A time-stamp value that the system uses internally to reconcile updates when you call the UpdateCustomer or the DeleteCustomer.
      *
      * @var base64Binary
      */

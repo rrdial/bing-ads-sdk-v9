@@ -6,7 +6,7 @@ namespace BingAds\Reporting;
  * The AdExtensionDimensionReport is deprecated and is not supported.
  *
  * @link http://msdn.microsoft.com/en-us/library/jj713609(v=msads.90).aspx AdExtensionDimensionReportColumn Value Set
- * 
+ *
  * @used-by AdExtensionDimensionReportRequest
  */
 final class AdExtensionDimensionReportColumn

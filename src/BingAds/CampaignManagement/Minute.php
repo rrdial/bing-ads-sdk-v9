@@ -3,10 +3,10 @@
 namespace BingAds\CampaignManagement;
 
 /**
- * Currently this feature is only available for pilot participants, and will be generally available for all advertisers in Q3 2014.
+ * Defines the possible minute values for a day and time target hour range.
  *
  * @link http://msdn.microsoft.com/en-us/library/dn743745(v=msads.90).aspx Minute Value Set
- * 
+ *
  * @used-by DayTimeTargetBid
  */
 final class Minute

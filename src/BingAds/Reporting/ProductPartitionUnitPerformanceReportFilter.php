@@ -6,7 +6,7 @@ namespace BingAds\Reporting;
  * Defines the criteria to use to filter the product partition performance report data.
  *
  * @link http://msdn.microsoft.com/en-us/library/mt592961(v=msads.90).aspx ProductPartitionUnitPerformanceReportFilter Data Object
- * 
+ *
  * @uses DeviceTypeReportFilter
  * @used-by ProductPartitionUnitPerformanceReportRequest
  */

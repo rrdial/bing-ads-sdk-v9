@@ -6,7 +6,7 @@ namespace BingAds\Reporting;
  * Defines the attributes and performance statistics columns that you can include in the ProductPartitionUnitPerformanceReportRequest.
  *
  * @link http://msdn.microsoft.com/en-us/library/mt592967(v=msads.90).aspx ProductPartitionUnitPerformanceReportColumn Value Set
- * 
+ *
  * @used-by ProductPartitionUnitPerformanceReportRequest
  */
 final class ProductPartitionUnitPerformanceReportColumn
@@ -27,7 +27,7 @@ final class ProductPartitionUnitPerformanceReportColumn
     const AdGroupName = 'AdGroupName';
     /** The Bing Ads assigned identifier of an ad group. */
     const AdGroupId = 'AdGroupId';
-    /** The forward slash ('/') delimited list of ProductCondition, reported as Operand = Attribute. */
+    /** The forward slash ('/') delimited list of product conditions, reported as Operand = Attribute. */
     const ProductGroup = 'ProductGroup';
     /** The Bing Ads assigned identifier of an ad group criterion, or product group in the context of a Bing Shopping campaign. */
     const AdGroupCriterionId = 'AdGroupCriterionId';
@@ -69,7 +69,7 @@ final class ProductPartitionUnitPerformanceReportColumn
     const AdGroupStatus = 'AdGroupStatus';
     /** The destination URL attribute of the ad, keyword, or ad group criterion. */
     const DestinationUrl = 'DestinationUrl';
-    /** The Network element of an AdGroup. */
+    /** The current network setting of an ad group. */
     const Network = 'Network';
     /** The report will include a column that indicates whether the ad impression appeared in a top position or elsewhere. */
     const TopVsOther = 'TopVsOther';

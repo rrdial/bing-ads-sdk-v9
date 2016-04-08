@@ -6,7 +6,7 @@ namespace BingAds\Reporting;
  * Defines the attributes and performance statistics columns that you can include in the DestinationUrlPerformanceReportRequest.
  *
  * @link http://msdn.microsoft.com/en-us/library/bb671820(v=msads.90).aspx DestinationUrlPerformanceReportColumn Value Set
- * 
+ *
  * @used-by DestinationUrlPerformanceReportRequest
  */
 final class DestinationUrlPerformanceReportColumn
@@ -55,7 +55,7 @@ final class DestinationUrlPerformanceReportColumn
     const CostPerConversion = 'CostPerConversion';
     /** The average of the cost-per-thousand impressions of the ads. */
     const AverageCpm = 'AverageCpm';
-    /** The PricingModel element of an AdGroup. */
+    /** The ad group's pricing model. */
     const PricingModel = 'PricingModel';
     /** The device name attribute of a device OS target bid. */
     const DeviceType = 'DeviceType';
@@ -65,7 +65,7 @@ final class DestinationUrlPerformanceReportColumn
     const BidMatchType = 'BidMatchType';
     /** The match type used to deliver an ad. */
     const DeliveredMatchType = 'DeliveredMatchType';
-    /** The Network element of an AdGroup. */
+    /** The current network setting of an ad group. */
     const Network = 'Network';
     /** The report will include a column that indicates whether the ad impression appeared in a top position or elsewhere. */
     const TopVsOther = 'TopVsOther';

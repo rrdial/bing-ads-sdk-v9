@@ -6,7 +6,7 @@ namespace BingAds\Reporting;
  * Defines the attributes and performance statistics columns that you can include in the TacticChannelReportRequest.
  *
  * @link http://msdn.microsoft.com/en-us/library/gg262851(v=msads.90).aspx TacticChannelReportColumn Value Set
- * 
+ *
  * @used-by TacticChannelReportRequest
  */
 final class TacticChannelReportColumn

@@ -6,7 +6,7 @@ namespace BingAds\CampaignManagement;
  * Gets the specified criterions.
  *
  * @link http://msdn.microsoft.com/en-us/library/dn277520(v=msads.90).aspx GetAdGroupCriterionsByIds Request Object
- * 
+ *
  * @uses CriterionType
  * @used-by BingAdsCampaignManagementService::GetAdGroupCriterionsByIds
  */

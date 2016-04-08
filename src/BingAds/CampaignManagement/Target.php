@@ -6,7 +6,7 @@ namespace BingAds\CampaignManagement;
  * Defines the types of targeting that you can use to target your ads to users.
  *
  * @link http://msdn.microsoft.com/en-us/library/bb671789(v=msads.90).aspx Target Data Object
- * 
+ *
  * @uses AgeTarget
  * @uses DayTarget
  * @uses DeviceOSTarget
@@ -41,7 +41,7 @@ final class Target
      */
     public $DeviceOS;
     /**
-     * The list of key and value strings for forward compatibility.
+     * For a list of valid key and value strings for this element, see Target ForwardCompatibilityMap in the section below.
      *
      * @var KeyValuePairOfstringstring[]
      */

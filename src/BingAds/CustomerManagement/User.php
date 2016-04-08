@@ -6,7 +6,7 @@ namespace BingAds\CustomerManagement;
  * Defines a user.
  *
  * @link http://msdn.microsoft.com/en-us/library/bb671824(v=msads.90).aspx User Data Object
- * 
+ *
  * @uses ContactInfo
  * @uses ApplicationType
  * @uses LCID
@@ -98,7 +98,7 @@ final class User
      */
     public $UserLifeCycleStatus;
     /**
-     * A time-stamp value that the system uses internally to reconcile updates when you call the UpdateUser or DeleteUser operation.
+     * A time-stamp value that the system uses internally to reconcile updates when you call UpdateUser or DeleteUser.
      *
      * @var base64Binary
      */

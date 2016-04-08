@@ -6,7 +6,7 @@ namespace BingAds\CampaignManagement;
  * Adds new ad groups to a specified campaign.
  *
  * @link http://msdn.microsoft.com/en-us/library/dn277502(v=msads.90).aspx AddAdGroups Request Object
- * 
+ *
  * @uses AdGroup
  * @used-by BingAdsCampaignManagementService::AddAdGroups
  */
@@ -19,7 +19,7 @@ final class AddAdGroupsRequest
      */
     public $CampaignId;
     /**
-     * An array of AdGroup objects to add to the specified campaign.
+     * The list of ad groups to add to the specified campaign.
      *
      * @var AdGroup[]
      */
